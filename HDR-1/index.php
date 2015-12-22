@@ -1,3 +1,4 @@
+<?php     include("../common/header.php");   ?>
 <!-- from https://www.owasp.org/index.php/Path_Traversal -->
 will include the arg specified in the HTTP Cookie parameter "TEMPLATE"
 <?php
