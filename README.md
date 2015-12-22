@@ -15,3 +15,15 @@ jose nazario @jnazario
 # inspired by 
 
 https://github.com/AUDI-1/sqli-labs
+
+# useful links
+
+- https://pentesterlab.com/exercises/php_include_and_post_exploitation/course
+- http://hakipedia.com/index.php/Local_File_Inclusion
+- http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/
+- https://websec.wordpress.com/2009/11/28/freebsd-directory-listing-with-php-file-functions/
+- http://diablohorn.com/2010/01/16/interesting-local-file-inclusion-method/
+- http://blog.ptsecurity.com/2010/08/another-alternative-for-null-byte.html
+- https://www.notsosecure.com/2010/02/02/local-file-inclusion-with-magic_quotes_gpc-enabled/
+- http://www.ush.it/2009/07/26/php-filesystem-attack-vectors-take-two/
+- http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/
