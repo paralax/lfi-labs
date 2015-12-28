@@ -1,4 +1,5 @@
 <!-- from http://hakipedia.com/index.php/Local_File_Inclusion -->
+<?php     include("../common/header.php");   ?>
 
 <?php hint("will include the arg specified in the POST parameter \"file\", strips prepended \"../\" strings, must encode / with %2f"); ?>
 
