@@ -1,5 +1,7 @@
 <!-- from http://hakipedia.com/index.php/Local_File_Inclusion -->
-will include the arg specified in the GET parameter "file", strips prepended "../" strings, must encode / with %2f
+
+<?php hint("will include the arg specified in the GET parameter \"file\", strips prepended \"../\" strings, must encode / with %2f"); ?>
+
 
 <form action="/LFI-5/index.php" method="GET">
     <input type="text" name="file">
