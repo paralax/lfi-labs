@@ -1,10 +1,12 @@
 # lfi-labs
 
-small set of PHP scripts to test out LFI, RFI and CMD injection vulns
+small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulns
 
 # why?
 
-for training and testing purposes
+for training and testing purposes. you can test detection products (e.g. vulnerability scanners), exploit tools, etc. 
+
+these are NOT intended for evaluating appsec testing tools.
 
 the idea is that you'd add these to an Apache VirtualHost directive for testing purposes. if you need to do some quick and dirty testing, fire up `php -S 0.0.0.0:8080` or something and go to town. 
 
