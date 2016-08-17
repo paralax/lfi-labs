@@ -29,3 +29,4 @@ https://github.com/AUDI-1/sqli-labs
 - https://www.notsosecure.com/2010/02/02/local-file-inclusion-with-magic_quotes_gpc-enabled/
 - http://www.ush.it/2009/07/26/php-filesystem-attack-vectors-take-two/
 - http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/
+- https://www.imperva.com/docs/HII_Remote_and_Local_File_Inclusion_Vulnerabilities.pdf
