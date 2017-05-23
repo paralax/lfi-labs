@@ -6,5 +6,5 @@
 $template = 'blue.php';
 if ( array_key_exists( $_COOKIE['TEMPLATE'] ) )
    $template = $_COOKIE['TEMPLATE'];
-include ( "/Users/josenazario/templates/" . $template );
+include ( dirname(FILE) . "/" . $template );
 ?>
