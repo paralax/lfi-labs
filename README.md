@@ -10,6 +10,13 @@ these are NOT intended for evaluating appsec testing tools.
 
 the idea is that you'd add these to an Apache VirtualHost directive for testing purposes. if you need to do some quick and dirty testing, fire up `php -S 0.0.0.0:8080` or something and go to town. 
 
+# how?
+
+two big options.
+
+1. UN\*X + Apache + PHP, install lfi-labs under somewhere and get to work.
+2. Run a Docker instance using the Dockerfile.
+
 # who?
 
 jose nazario @jnazario
