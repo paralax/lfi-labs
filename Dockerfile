@@ -25,9 +25,11 @@ RUN echo "ServerRoot /var/www/html" >> /etc/apache2/apache2.conf
 
 EXPOSE 80
 CMD /usr/sbin/apache2ctl -D FOREGROUND
-# CMD /bin/bash
 
 # docker build -t lfi-labs .
 # docker run -p 8080:80 lfi-labs
-# this doesn't work yet? e.g. i can't daemonize it ... why not?
-# docker exec -it $hash /bin/bash
+
+# % docker ps
+# CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS                  NAMES
+# a7d9efa998bf        lfi-labs            "/bin/sh -c '/usr/..."   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp   keen_shirley
+# % docker exec -it a7d9efa998bf /bin/bash
