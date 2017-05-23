@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  web:
+    image: lfi-labs
+    hostname: lfiweb
+    build:
+      context: .
+    ports:
+      - "8080:80"
