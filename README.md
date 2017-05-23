@@ -15,7 +15,7 @@ the idea is that you'd add these to an Apache VirtualHost directive for testing 
 two big options.
 
 1. UN\*X + Apache + PHP, install lfi-labs under somewhere and get to work.
-2. Run a Docker instance using the Dockerfile.
+2. Run a Docker instance using the Dockerfile. `docker-compose up`
 
 # who?
 
