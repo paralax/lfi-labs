@@ -12,10 +12,11 @@ the idea is that you'd add these to an Apache VirtualHost directive for testing 
 
 # how?
 
-two big options.
+three big options.
 
 1. UN\*X + Apache + PHP, install lfi-labs under somewhere and get to work.
-2. Run a Docker instance using the Dockerfile. `docker-compose up`
+2. run a Docker instance using the Dockerfile. `docker-compose up`
+3. run a Vagrant instance using the Vagrantfile. `vagrant up`
 
 # who?
 
