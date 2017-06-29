@@ -11,7 +11,7 @@
 
 <?php
 if (substr($_POST['file'], -4, 4) != '.php')
- echo file_get_contents($_POST['file']);
+ echo file_get_contents($_GET['file']);
 else
  echo 'You are not allowed to see source files!'."\n";
 ?>
