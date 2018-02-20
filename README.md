@@ -28,6 +28,7 @@ https://github.com/AUDI-1/sqli-labs
 
 # useful links
 
+## LFI/RFI/CMD injection background
 - https://pentesterlab.com/exercises/php_include_and_post_exploitation/course
 - http://hakipedia.com/index.php/Local_File_Inclusion
 - http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/
@@ -38,3 +39,6 @@ https://github.com/AUDI-1/sqli-labs
 - http://www.ush.it/2009/07/26/php-filesystem-attack-vectors-take-two/
 - http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/
 - https://www.imperva.com/docs/HII_Remote_and_Local_File_Inclusion_Vulnerabilities.pdf
+
+## walkthrough
+- http://location-href.com/paralax-lfi-lab/ 
