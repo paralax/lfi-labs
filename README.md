@@ -1,22 +1,22 @@
 # lfi-labs
 
-small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulns
+Small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulnerabilities.
 
 # why?
 
-for training and testing purposes. you can test detection products (e.g. vulnerability scanners), exploit tools, etc. 
+For training and testing purposes. You can test detection products (e.g. vulnerability scanners), exploit tools, etc. 
 
-these are NOT intended for evaluating appsec testing tools.
+These are NOT intended for evaluating appsec testing tools.
 
-the idea is that you'd add these to an Apache VirtualHost directive for testing purposes. if you need to do some quick and dirty testing, fire up `php -S 0.0.0.0:8080` or something and go to town. 
+The idea is that you'd add these to an Apache VirtualHost directive for testing purposes. If you need to do some quick and dirty testing, fire up `php -S 0.0.0.0:8080` or something and go to town. 
 
 # how?
 
-three big options.
+Three big options.
 
 1. UN\*X + Apache + PHP, install lfi-labs under somewhere and get to work.
-2. run a Docker instance using the Dockerfile. `docker-compose up`
-3. run a Vagrant instance using the Vagrantfile. `vagrant up`
+2. Run a Docker instance using the Dockerfile. `docker-compose up`
+3. Run a Vagrant instance using the Vagrantfile. `vagrant up`
 
 # who?
 
