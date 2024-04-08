@@ -8,7 +8,7 @@ for training and testing purposes. you can test detection products (e.g. vulnera
 
 these are NOT intended for evaluating appsec testing tools.
 
-the idea is that you'd add these to an Apache VirtualHost directive for testing purposes. if you need to do some quick and dirty testing, fire up `php -S 0.0.0.0:8080` or something and go to town. 
+the idea is that you'd add these to an Apache VirtualHost directive for testing purposes. if you need to do some quick and dirty testing, fire up `php -S 127.0.0.1:8080` or something and go to town. 
 
 # how?
 
