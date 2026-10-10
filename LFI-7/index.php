@@ -2,7 +2,10 @@
 
 <!-- from http://www.ush.it/2009/02/08/php-filesystem-attack-vectors/ -->
 
-<?php hint("will include the arg specified in the POST parameter \"library\", appends .php to end, use null byte %00 to bypass"); ?>
+<!-- Hint change only; the code below is unchanged from upstream. Same as LFI-2,
+     POST version: the NULL byte hint is obsolete, but the includes/ prefix is
+     still traversable. -->
+<?php hint("will include the arg specified in the POST parameter \"library\", appends .php to end - NULL byte is no longer usable, but the includes/ prefix is still traversable (mind the extra level); the appended .php suffix limits you to including PHP files"); ?>
 
 
 <form action="/LFI-7/index.php" method="POST">
